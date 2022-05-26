@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Copa do Mundo 2022 - Flexbox</title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="css/layout.css">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header class="flex-header">
+			<figure>
+				<img src="imagens/2022_FIFA_World_Cup.png" alt="Logo da Copa 2022">
+			</figure>
+			<h1>
+				Copa do Mundo FIFA 2022
+			</h1>
+			<ul>
+				<li><a href="#">Cadastre-se</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</header>
+		<nav class="flex-nav">
+			<a href="index.html">Início</a>
+			<a href="#" class="ativo">Seleções</a>
+			<a href="grupo.html">Grupos</a>
+			<a href="sedes.html">Sedes</a>
+		</nav>
+		<section class="flex-container">
+			<nav>
+				<a onclick="ale()">Alemanha</a>
+				<a onclick='cachorro()'>Argentina</a>
+				<a onclick="bel()">Bélgica</a>
+				<a onclick="bos()">Bósnia</a>
+				<a onclick="bra()">Brasil</a>
+				<a onclick="cam()">Camarões</a>
+				<a onclick="cat()">Catar</a>
+				<a onclick="cra()">Costa Rica</a>
+				<a onclick="cro()">Croácia</a>
+				<a onclick="esp()">Espanha</a>
+				<a onclick="usa()">Estados Unidos</a>
+				<a onclick="queijo()">França</a>
+				<a onclick="cha()">Inglaterra</a>
+				<a onclick="taco()">México</a>
+				<a onclick="bacalhau()">Portugal</a>
+				<a onclick="cevapcici()">Sérvia</a>
+			</nav>
+			<article>
+
+				<div id="alemanha" name="alemanha">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/alemanha/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/alemanha.jpg">
+							<img src="imagens/alemanha/simbolo.png">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção Alemã</h1>
+					
+					<p>
+						humilhou o pentacampeão em 2014, mas perdeu cedo em 2018 para a coreia do sul
+					</p>
+				</div>
+
+				<div id="argentina">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/argentina/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/argentina.jpg">
+							<img src="imagens/argentina/simbolo.png">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção argentino</h1>
+					
+					<p>
+						É TERAAAA, É TETRAAAA, É TETRAAAAAA AAAA AAAA AAAA
+					</p>
+					<p>
+						derrotou o brasil em 2021, eu acho
+					</p>
+				</div>
+
+				
+				<div id="belgica">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/belgica/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/belgica.png">
+							<img src="imagens/belgica/simbolo.png">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção belga</h1>
+					
+					<p>
+						São do satanás 
+						derrotou o brasil em 2018
+
+					</p>
+				</div>
+
+				<div id="bosnia">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/bosnia/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/bosnia.png">
+							<img src="imagens/bosnia/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção bósnio</h1>
+					
+					<p>
+						estreou em 2014 e foi derrotado pelo brasil
+
+					</p>
+				</div>
+
+				<div id="brasil">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/brasil/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/brasil.png">
+							<img src="imagens/brasil/simbolo.png">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção brasleira</h1>
+					
+					<p>
+						rumo ao hexa
+					</p>
+				</div>
+				
+				<div id="camaroes">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/camaroes/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/camaroes.png">
+							<img src="imagens/camaroes/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção camaronica</h1>
+					
+					<p>
+						caiu no mesmo grupo que o Brasil nessa copa.
+					</p>
+				</div>
+
+				<div id="catar">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/catar/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/qatar.jpg">
+							<img src="imagens/catar/simbolo.png">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção que sedia a copa</h1>
+					
+					<p>
+						perdeu por 2 a 0 contra o brasil no amistoso em mané garrincha no ano de 2019
+					</p>
+				</div>
+
+				
+				<div id="costarica">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/costa_rica/selecao.jpg" >
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/costarica.jpg">
+							<img src="imagens/costa_rica/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção costarriquenho</h1>
+					
+					<p>
+						Foi humilhado pelo brasil na copa de 2002, fazendo 2 gols e tomando 5.
+					</p>
+				</div>
+			
+				<div id="croacia">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/croacia/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/croacia.png">
+							<img src="imagens/croacia/simbolo.png">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção croata</h1>
+					
+					<p>
+						Perdeu por 2 a 0 contra o Brasil em 2018 
+					</p>
+				</div>
+
+				<div id="espanha">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/espanha/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/espanha.jpg">
+							<img src="imagens/espanha/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção espanhola</h1>
+					
+					<p>
+						Perdeu por 2 a 1 contra o Brasil na ultima olimpiada 
+					</p>
+				</div>
+
+				<div id="eua">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/eua/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/usa.jpg">
+							<img src="imagens/eua/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção americana</h1>
+					
+					<p>
+						Perdeu por 2 a 0 contra o Brasil no amistoso de 2018 
+					</p>
+				</div>
+
+				<div id="franca">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/franca/time.png" alt="Seleção Francesa de Futebol">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/franca/bandeira_franca.png" alt="Bandeira da França">
+							<img src="imagens/franca/logo.png" alt="Uniforme Principal">
+							<img src="imagens/franca/uniforme_1.jpg" alt="Uniforme Principal">
+							<img src="imagens/franca/uniforme_2.jpg" alt="Uniforme Reserva">
+						</div>
+					</div>
+					<h1>Seleção Francesa</h1>
+					
+					<p>
+						A seleção francesa é a atual campeã do mundo, vencendo a Croácia 
+						na Rússia em 2018. Ela é uma das favoritas ao título no Catar, tendo
+						como principal destaque o atacante Kylian Mbappé, do Paris Saint-Germain.
+					</p>
+				</div>
+
+				<div id="inglaterra">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/inglaterra/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/inglaterra.png">
+							<img src="imagens/inglaterra/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção inglesa</h1>
+					
+					<p>
+						perdeu contra o brasil nas quartas de finais por 2 a 1 na copa de 2002
+					</p>
+				</div>
+
+				<div id="mexico">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/mexico/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/mexico.jpg" >
+							<img src="imagens/mexico/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção mexicana</h1>
+					
+					<p>
+						perdeu contra o brasil por 2 a 0 na copa de 2018
+					</p>
+				</div>
+
+				<div id="servia">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/servia/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/servia.jpg">
+							<img src="imagens/servia/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção sérvio</h1>
+					
+					<p>
+						vai jogar contra o Brasil dia 24 de novembro, agenda ae
+					</p>
+				</div>
+
+				<div id="portugal">
+					<div class="flex-line">
+						<!-- uma imagem em destaque -->
+						<div class="primaria">
+							<img src="imagens/portugal/selecao.jpg">
+						</div>
+						
+						<!-- várias imagens em miniatura -->
+						<div class="secundaria">
+							<img src="imagens/bandeira/portugal.jpg">
+							<img src="imagens/portugal/simbolo.jpg">
+							<img src="imagens/franca/uniforme_1.jpg">
+							<img src="imagens/franca/uniforme_2.jpg">
+						</div>
+					</div>
+					<h1>Seleção portuguesa</h1>
+					
+					<p>
+						Empatou o brasil por 3 a 3 na copa de 2018
+					</p>
+				</div>
+
+			</article>
+		</section>	
+	</body>
+</html>
+<script src="./javascript/javascript.js"></script>
